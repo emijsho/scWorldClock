@@ -12,25 +12,31 @@
     <div class="container">
       <div class="world-clock-app" id="world-clock-app">
         <h1>World Clock</h1>
-        <select>
-          <option value="">London</option>
-          <option value="">Boston</option>
-          <option value="">Wellington</option>
+        <select id="city">
+          <option value="">Select a City...</option>
+          <option value="Europe/London">London</option>
+          <option value="America/New_York">New York</option>
+          <option value="Pacific/Auckland">Auckland</option>
+          <option value="Asia/Tokyo">Tokyo</option>
+          <option value="Pacific/Honolulu">Honolulu</option>
         </select>
+
         <div></div>
-        <div class="city" id="los-angeles">
-          <span>
-            <h2>Los Angeles</h2>
-            <div class="date">August 07 2023</div>
-          </span>
-          <div class="time">08:00<small>am</small></div>
-        </div>
-        <div class="city" id="paris">
-          <span>
-            <h2>Paris</h2>
-            <div class="date">August 07 2023</div>
-          </span>
-          <div class="time">08:00<small>am</small></div>
+        <div id="cities">
+          <div class="city" id="los-angeles">
+            <span>
+              <h2>Los Angeles</h2>
+              <div class="date">August 07 2023</div>
+            </span>
+            <div class="time">08:00<small>am</small></div>
+          </div>
+          <div class="city" id="paris">
+            <span>
+              <h2>Paris</h2>
+              <div class="date">August 07 2023</div>
+            </span>
+            <div class="time">08:00<small>am</small></div>
+          </div>
         </div>
       </div>
     </div>
